@@ -1,0 +1,63 @@
+
+h1 {
+  color: rgb(233, 63, 20);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+h2, h3 {
+  color: rgb(248, 17, 171);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+body {
+  margin: 2em;
+}
+body, input[text], button {
+  color: rgb(139, 34, 34);
+  font-family: Cambria, Georgia, serif;
+}
+a {
+  cursor: pointer;
+}
+button {
+  font-family: Arial, sans-serif;
+  background-color: rgb(231, 123, 123);
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0aa5e7;
+}
+button:disabled {
+  background-color: rgb(223, 151, 151);
+  color: rgb(226, 196, 196);
+  cursor: auto;
+}
+
+
+nav a {
+  padding: 5px 10px;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: rgb(230, 215, 215);
+  border-radius: 4px;
+}
+nav a:visited, a:link {
+  color: #082736;
+}
+nav a:hover {
+  color: #081c25;
+  background-color: #a9daf0;
+}
+nav a.active {
+  color: #4a8daf;
+}
+
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}

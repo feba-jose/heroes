@@ -1,0 +1,78 @@
+
+.crises {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 24em;
+}
+.crises li {
+  background-color: rgb(209, 149, 149);
+  margin: .5em;
+  padding: .3em 0;
+  height: 1.6em;
+  border-radius: 4px;
+  position:relative;
+  cursor: cell;
+}
+
+.crises li:hover {
+  color: #e2cf26;
+  background-color: rgb(180, 120, 120);
+  left: .1em;
+}
+
+.crises a {
+  color: rgb(26, 41, 179);
+  text-decoration: none;
+  display: block;
+}
+
+.crises a:hover {
+  color:#080808;
+}
+
+.crises .badge {
+  display: inline-block;
+  font-size: small;
+  color: rgb(20, 20, 20);
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  min-width: 16px;
+  text-align: right;
+  margin-right: .8em;
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color: #b9e2a1;
+  line-height: 1em;
+  position: relative;
+  border-radius: 4px 0 0 4px;
+}
+
+button {
+  background-color: rgb(206, 157, 157);
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  border: #0e9cda;
+  padding: 10px 20px;
+  border-radius: 7px;
+}
+
+button:hover {
+  background-color: #a3c6d4;
+}
+
+button.delete {
+  position: relative;
+  left: 194px;
+  top: -32px;
+  background-color: rgb(34, 159, 168) !important;
+  color: rgb(224, 56, 56);
+}
+
+.crises li.selected {
+  background-color: #0e9cda;
+  color: rgb(211, 17, 17);
+}
+.crises li.selected:hover {
+  background-color: #0bd0eb;
+}
